@@ -1,12 +1,11 @@
 ---
-title: VDesigner简介
+pageClass: custom-page-class
 ---
-
 # 简介
 
 ## 什么是VDesigner
 
-***VDesigner*** 是一款用于构建可视化、动态数据交互界面的软件。它基于标准 HTML、CSS 和 TypeScript 构建，并提供了***可视化***、***拖拽式*** 操作界面，帮助你高效地开发用户界面。无论是简单还是复杂的界面，快速实现还是复杂的***数字孪生***、***大屏可视化***、***Web组态***、***SCADA***等软件界面，VDesigner 都可以胜任。
+***VDesigner*** 是一款用于构建可视化、动态数据交互界面的软件。它基于标准 HTML5、CSS 、TypeScript 和开源的Canvas引擎 [meta2d](https://github.com/le5le-com/meta2d.js) 构建，提供了***可视化***、***拖拽式*** 操作界面，帮助你高效地开发用户界面。无论是简单还是复杂的界面，快速实现还是复杂的**数字孪生**、**大屏可视化**、**Web组态**、**SCADA**等软件界面，VDesigner 都可以胜任。
 
 下面是软件启动后的暗色界面:
 
@@ -34,8 +33,3 @@ title: VDesigner简介
 ## 易集成
 
 软件基于 Vue3、Pinia、Quasar、IndexedDB 等众多业界先进的技术构建的一套纯前端项目，可发布为 html 直接部署至服务，或者导出为 vue 组件以轻松集成到现有项目中。
-
-
-
-
-

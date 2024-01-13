@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress';
-import { zhThemeConfig } from './theme/config/zh';
+import { config as zhConfig } from './theme/config/zh';
 
 export default defineConfig({
   title: 'VDesigner',
@@ -12,7 +12,7 @@ export default defineConfig({
   outDir: './dist',
 
   locales: {
-    root: { label: '简体中文', lang: 'zh', link: '/index', ...zhThemeConfig },
+    root: { label: '简体中文', lang: 'zh', ...zhConfig },
   },
 
   markdown: {

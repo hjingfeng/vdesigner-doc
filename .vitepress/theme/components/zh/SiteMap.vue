@@ -29,12 +29,16 @@ import { VTLink } from '@vue/theme'
             <li>
               <VTLink href="/zh/guide/designer-intro">介绍</VTLink>
             </li>
+            <li>
+              <VTLink href="/zh/guide/designer-intro">核心概念</VTLink>
+            </li>
           </ul>
         </div>
 
         <div class="flex flex-col">
-          <h4>微信咨询</h4>
-          <img width="100" src="/images/wechat.png" alt="微信" />
+          <h4>咨询反馈</h4>
+          <img width="100" class="mt-3" style="border-radius: 5px;" src="/images/wechat.png" alt="微信" />
+          <VTLink class="mt-3" href="mailto:tony@buoxin.cn">tony@buoxin.cn</VTLink>
         </div>
       </div>
 
@@ -48,7 +52,7 @@ import { VTLink } from '@vue/theme'
 }
 
 #sitemap .container {
-  padding: 16px 0;
+  padding: 30px 0;
   max-width: 1152px;
 }
 
@@ -61,5 +65,9 @@ import { VTLink } from '@vue/theme'
 .sitemap-col {
   margin-bottom: 0;
   break-inside: avoid;
+
+  li {
+    font-size: 14px;
+  }
 }
 </style>

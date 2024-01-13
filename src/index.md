@@ -37,5 +37,8 @@ import SiteMap from '@theme/components/zh/SiteMap.vue'
   .VPHome {
     padding-bottom: 0 ! important;
   }
+  .Navbar__title {
+    display: block !important;
+  }
 </style>
 <SiteMap/>
