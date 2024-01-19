@@ -24,9 +24,9 @@ pageClass: custom-page-class
 
 ![内置丰富组件](/images/screenshot/guide/components.gif)
 
-## 内置支持标准通信协议
+## 内置标准通信协议
 
-软件内置支持Websocket、Mqtt、Http通信协议，轻松实现***实时数据同步及展示***。支持在线***自定义JS代码***对数据结构解析，***无需改变*** 现有 ***后端数据接口结构***。
+[数据通信](../concept/data.md)是物联网系统的必备功能。软件内置支持Websocket、Mqtt、Http通信协议，你可以很轻松的实现***实时数据同步及展示***。支持在线***自定义JS代码***对数据结构解析，***无需改变*** 现有 ***后端数据接口结构***。
 
 ![内置支持标准通信协议](/images/screenshot/guide/comm.gif)
 
