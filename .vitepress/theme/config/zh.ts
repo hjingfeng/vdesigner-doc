@@ -33,26 +33,17 @@ export const config: LocaleSpecificConfig<DefaultTheme.Config> = {
           { text: '属性', link: '/zh/concept/property' },
           { text: '事件', link: '/zh/concept/event' },
           { text: '动画', link: '/zh/concept/animation' },
-          { text: '数据通信', link: '/zh/concept/data' },
+          { text: '实时数据通信', link: '/zh/concept/data' },
           { text: '项目运行', link: '/zh/concept/preview' },
         ],
       },
-      /* {
-        text: '内置组件库',
-        items: [
-          { text: '基础图库', link: '/zh/libs/base' },
-          { text: 'ECharts图表', link: '/zh/libs/echarts' },
-          { text: '大屏装饰', link: '/zh/libs/bigscreen' },
-          { text: '地图', link: '/zh/libs/map' },
-        ],
-      },
+      /* 
       {
         text: '进阶',
         items: [
           { text: '自定义数据解析', link: '/zh/senior/base' },
           { text: '数据绑定', link: '/zh/senior/data-bind' },
           { text: '组件状态', link: '/zh/senior/state' },
-          { text: '动画特效', link: '/zh/senior/animation' },
         ],
       }, */
     ],

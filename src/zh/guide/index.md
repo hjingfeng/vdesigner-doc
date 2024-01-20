@@ -30,6 +30,8 @@ pageClass: custom-page-class
 
 ![内置支持标准通信协议](/images/screenshot/guide/comm.gif)
 
+更多有关数据通信方面的介绍，请点击 [这里](../concept/data.md)。
+
 ## 易集成
 
 软件基于 Vue3、Pinia、Quasar、IndexedDB 等众多业界先进的技术构建的一套纯前端项目，可发布为 html 直接部署至服务，或者导出为 vue 组件以轻松集成到现有项目中。
