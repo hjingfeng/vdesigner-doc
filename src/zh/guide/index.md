@@ -3,9 +3,16 @@ pageClass: custom-page-class
 ---
 # 简介
 
-## 什么是VDesigner
+## 什么是 `VDesigner`
 
-***VDesigner*** 是一款用于构建可视化、动态数据交互界面的软件。它基于标准 HTML5、CSS 、TypeScript 和开源的Canvas引擎 [meta2d](https://github.com/le5le-com/meta2d.js) 构建，提供了***可视化***、***拖拽式*** 操作界面，帮助你高效地开发用户界面。无论是简单还是复杂的界面，快速实现还是复杂的**数字孪生**、**大屏可视化**、**Web组态**、**SCADA**等软件界面，VDesigner 都可以胜任。
+***`VDesigner`*** 是一个在线 Web 互动创作平台。它可以帮助你快速的创建、编辑和导出一个动态数据实时交互的 `Web 组态` 项目。采用组件化架构与 `HTML5` 、`CSS3` 、 `Typescript` 及 开源 `Canvas` 引擎 [`meta2d`](https://github.com/le5le-com/meta2d.js)、开源UI组件库 [`Quasar`](https://quasar.dev/)  编写。提供了***可视化***、***拖拽式*** 操作界面，能够帮助你高效地开发出 **数字孪生**、**大屏可视化**、**SCADA**等软件UI层。
+
+::: tip
+[组态软件](https://baike.baidu.com/item/组态软件/6905673) 又称为组态监控系统软件，是一种专用于数据采集与过程控制的软件。它是自动控制系统监控层的软件平台和开发环境，通过灵活的组态方式，为用户提供快速构建工业自动控制系统监控功能的通用层次软件工具。组态软件的广泛应用涵盖了机械、汽车、石油、化工、造纸、水处理以及过程控制等多个领域。
+:::
+
+> - 对于产品和设计来说，`VDesigner` 是一个 Web互动创作平台
+> - 对于软件工程师来说，`VDesigner` 是一个低代码开发平台
 
 下面是软件启动后的暗色界面:
 

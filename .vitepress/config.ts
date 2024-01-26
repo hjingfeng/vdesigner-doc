@@ -11,8 +11,10 @@ export default defineConfig({
   // 项目构建输出目录
   outDir: './dist',
 
+  lastUpdated: true,
+
   head: [
-    [
+    /* [
       'script',
       {},
       `
@@ -24,7 +26,7 @@ export default defineConfig({
         s.parentNode.insertBefore(hm, s);
       })();
       `,
-    ],
+    ], */
   ],
 
   locales: {

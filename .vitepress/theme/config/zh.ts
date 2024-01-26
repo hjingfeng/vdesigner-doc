@@ -3,7 +3,7 @@ import { DefaultTheme, LocaleSpecificConfig } from 'vitepress';
 export const config: LocaleSpecificConfig<DefaultTheme.Config> = {
   themeConfig: {
     //siteTitle: 'VDesigner',
-    lastUpdatedText: '上次更新',
+    lastUpdatedText: '最后更新',
     returnToTopLabel: '返回顶部',
     nav: [
       {
@@ -37,15 +37,11 @@ export const config: LocaleSpecificConfig<DefaultTheme.Config> = {
           { text: '项目运行', link: '/zh/concept/preview' },
         ],
       },
-      /* 
+
       {
         text: '进阶',
-        items: [
-          { text: '自定义数据解析', link: '/zh/senior/base' },
-          { text: '数据绑定', link: '/zh/senior/data-bind' },
-          { text: '组件状态', link: '/zh/senior/state' },
-        ],
-      }, */
+        items: [{ text: 'Mqtt数据通信', link: '/zh/senior/mqtt' }],
+      },
     ],
     outline: {
       level: 'deep', // 右侧大纲标题层级
